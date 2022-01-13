@@ -1,0 +1,70 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    line-height: 150%;
+    background: linear-gradient(35deg,#CCFFFF, #c093c9);
+}
+
+#image {
+    display: block;
+    width: 98%;
+    max-width: 700px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#title {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#img-div {
+    background: #d1cddb;
+}
+#img-caption {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.text {
+    line-height: 170%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+}
+.line {
+    height: 40px;
+}
+
+.titleLine {
+    display: flex;
+    max-width: 700px;
+    text-align: left;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+}
+
+h4 {
+    text-align: center;
+}
+
+.enlace {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.frase {
+    font-style: italic;
+}
+
+@media (max-width: 400px) { 
+  #img-div {
+    background: transparent;}
+ 
+
+}
